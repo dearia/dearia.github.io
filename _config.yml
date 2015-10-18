@@ -1,0 +1,18 @@
+# Config
+# github:         [Repository metadata]
+highlighter:    pygments
+timezone:       "Asia/Jakarta"
+encoding:       "utf-8"
+url:            "http://dearia.github.io"
+exclude:        ['node_modules', 'bower_components', 'app']
+include:        [.htaccess]
+markdown:       kramdown
+permalink:      pretty
+future:         false
+baseurl:        ""
+gems:
+    - jekyll-sitemap
+
+
+# Site settings
+title:          de@aria
