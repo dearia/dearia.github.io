@@ -445,3 +445,54 @@ header.site-header ul.top-nav li {
 .home-st-right-a1:last-child {
   margin-right: 0;
 }
+
+.aria-home-features {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+
+.aria-home-features:last-child {
+  margin-right: 0;
+}
+
+.aria-home-features .ft {
+  text-align: center;
+  margin-bottom: 2.355em;
+}
+
+.aria-home-features .ft h3 {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.aria-home-features .ft h3::after {
+  content: url("../images/shape.png");
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.aria-home-features .ft h3::after::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.aria-home-features .ft h3::after:last-child {
+  margin-right: 0;
+}
+
+.aria-home-features .list-features {
+  text-align: center;
+}
+
+.aria-home-features .list-features img {
+  max-width: 150px;
+  width: 100%;
+  height: auto;
+}
