@@ -1,5 +1,5 @@
 'use strict';
-
+// Gulp Config
 var gulp            = require("gulp"),
     watch           = require("gulp-watch"),
     concat          = require("gulp-concat"),
@@ -103,7 +103,7 @@ gulp.task('cssplugin', function() {
 });
 
 
-////////////////////////////////////////////////////
+//----------------------------------------------
 // PLUGIN JS TASK
 gulp.task('jsplugin', function() {
     return gulp.src(src.jsPlugins)

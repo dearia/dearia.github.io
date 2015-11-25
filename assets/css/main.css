@@ -276,50 +276,94 @@ footer {
 }
 
 header {
+  -webkit-box-shadow: 0 -2px 2px 2px #000;
+  box-shadow: 0 -2px 2px 2px #000;
+  background-image: url("../images/background-05.jpg");
+  background-size: cover;
+}
+
+header .site-header {
+  background: rgba(0, 70, 165, 0.76);
+}
+
+header .site-header .top-header {
   max-width: 68em;
   margin-left: auto;
   margin-right: auto;
-  border-bottom: 2px solid peachpuff;
-  padding: 1em 1em 0 1em;
+  height: 10em;
+  padding: 25px 0;
 }
 
-header::after {
+header .site-header .top-header::after {
   clear: both;
   content: "";
   display: table;
 }
 
-header.site-header a.brand-logo {
-  margin: 0;
+header .site-header .top-header a.brand-logo {
   float: left;
-  border: 1px solid black;
-  position: absolute;
-  top: -1px;
+  display: block;
+  margin-right: 2.35765%;
+  width: 23.23176%;
+  height: 100%;
   text-align: center;
-  min-height: 7em;
-  max-height: 7em;
-  min-width: 5em;
-  max-width: 5em;
-  background: #4C3109;
-  color: #fff;
-  -webkit-border-bottom-left-radius: 10px;
-  border-bottom-left-radius: 10px;
-  -webkit-border-bottom-right-radius: 10px;
-  border-bottom-right-radius: 10px;
-  padding-top: 10px;
-  padding-right: 10px;
-  padding-bottom: 10px;
-  padding-left: 10px;
+  font-weight: 500;
+  font-size: 75px;
+  color: #FDFD9F;
 }
 
-header.site-header ul.top-nav {
-  float: right;
+header .site-header .top-header a.brand-logo:last-child {
+  margin-right: 0;
 }
 
-header.site-header ul.top-nav li {
+header .site-header .top-header .slgg {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 74.41059%;
+  height: 100%;
+  color: coral;
+  padding-left: 12px;
+  border-left: 2px solid wheat;
+}
+
+header .site-header .top-header .slgg:last-child {
+  margin-right: 0;
+}
+
+header .site-header .top-header .slgg span {
+  position: relative;
+  top: 70px;
+}
+
+header .site-header .main-menu {
+  border-top: 1px solid #0746C5;
+}
+
+header .site-header .main-menu ul {
+  max-width: 68em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 7px 0;
+  margin-bottom: 0;
+}
+
+header .site-header .main-menu ul::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+header .site-header .main-menu ul a > li.no-all {
   display: inline-block;
-  margin: 0;
-  padding: 0 1em 0 0;
+  float: left;
+  margin-right: 2em;
+  color: #DEDEDE;
+  font-weight: 700;
+}
+
+header .site-header .main-menu ul a > li.no-all:hover {
+  color: #FFFFFF;
 }
 
 .footer {
@@ -410,6 +454,36 @@ header.site-header ul.top-nav li {
   text-align: center;
 }
 
+.typo-head-border {
+  text-align: center;
+  margin-bottom: 2.355em;
+}
+
+.typo-head-border h1, .typo-head-border h2, .typo-head-border h3, .typo-head-border h4, .typo-head-border h5, .typo-head-border h6, .typo-head-border p {
+  display: inline-block;
+  margin-bottom: 0;
+}
+
+.typo-head-border h1::after, .typo-head-border h2::after, .typo-head-border h3::after, .typo-head-border h4::after, .typo-head-border h5::after, .typo-head-border h6::after, .typo-head-border p::after {
+  content: url("../images/shape.png");
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+  text-align: center;
+  clear: both;
+}
+
+.typo-head-border h1::after::after, .typo-head-border h2::after::after, .typo-head-border h3::after::after, .typo-head-border h4::after::after, .typo-head-border h5::after::after, .typo-head-border h6::after::after, .typo-head-border p::after::after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.typo-head-border h1::after:last-child, .typo-head-border h2::after:last-child, .typo-head-border h3::after:last-child, .typo-head-border h4::after:last-child, .typo-head-border h5::after:last-child, .typo-head-border h6::after:last-child, .typo-head-border p::after:last-child {
+  margin-right: 0;
+}
+
 .home-site {
   max-width: 68em;
   margin-left: auto;
@@ -445,6 +519,7 @@ header.site-header ul.top-nav li {
   width: 24.08474%;
   margin: 0.8px;
   height: auto;
+  cursor: pointer;
 }
 
 .home-st-left-a1 img:last-child {
@@ -463,41 +538,61 @@ header.site-header ul.top-nav li {
   margin-right: 0;
 }
 
-.aria-home-features {
-  clear: both;
-}
-
-.aria-home-features .ft {
-  text-align: center;
-  margin-bottom: 2.355em;
-}
-
-.aria-home-features .ft h3 {
-  display: inline-block;
-  margin-bottom: 0;
-}
-
-.aria-home-features .ft h3::after {
-  content: url("../images/shape.png");
+.aria-home-jw {
   float: left;
   display: block;
   margin-right: 2.35765%;
   width: 100%;
-  text-align: center;
-  clear: both;
 }
 
-.aria-home-features .ft h3::after::after {
-  clear: both;
-  content: "";
-  display: table;
-}
-
-.aria-home-features .ft h3::after:last-child {
+.aria-home-jw:last-child {
   margin-right: 0;
 }
 
-.aria-home-features .list-features {
+.aria-home-jw .list-aria-work .aria--play-list-work {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  border: 1px solid #dedede;
+  background: #010B1B;
+  color: #F8F8FF;
+  -webkit-box-shadow: 0px 2px 11px 0.5px #415677;
+  box-shadow: 0px 2px 11px 0.5px #415677;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work:last-child {
+  margin-right: 0;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work h4 {
+  color: #ED7A0B;
+  padding: 1em;
+  border-bottom: 1px solid #FF4500;
+  display: inline-block;
+  width: 100%;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work p {
+  padding: 0 1em;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work img:last-child {
+  margin-right: 0;
+}
+
+.aria-home-tw {
+  clear: both;
+}
+
+.aria-home-tw .list-tw {
   float: left;
   display: block;
   margin-right: 2.35765%;
@@ -508,15 +603,15 @@ header.site-header ul.top-nav li {
   text-align: center;
 }
 
-.aria-home-features .list-features:last-child {
+.aria-home-tw .list-tw:last-child {
   margin-right: 0;
 }
 
-.aria-home-features .list-features p {
+.aria-home-tw .list-tw p {
   padding: 1em 0.7em;
 }
 
-.aria-home-features .list-features img {
+.aria-home-tw .list-tw img {
   max-width: 150px;
   max-height: 150px;
   width: 100%;
@@ -524,4 +619,35 @@ header.site-header ul.top-nav li {
   margin: 0 0.8em;
   -webkit-border-radius: 50%;
   border-radius: 50%;
+}
+
+.im-profile {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+}
+
+.im-profile:last-child {
+  margin-right: 0;
+}
+
+.im-profile img {
+  width: 100%;
+}
+
+.nr-profile {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 65.88078%;
+}
+
+.nr-profile:last-child {
+  margin-right: 0;
+}
+
+.nr-vsandms {
+  width: 70%;
+  margin: 0 auto;
 }
