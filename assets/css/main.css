@@ -538,56 +538,6 @@ header .site-header .main-menu ul a > li.no-all:hover {
   margin-right: 0;
 }
 
-.aria-home-jw {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-}
-
-.aria-home-jw:last-child {
-  margin-right: 0;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 31.76157%;
-  border: 1px solid #dedede;
-  background: #010B1B;
-  color: #F8F8FF;
-  -webkit-box-shadow: 0px 2px 11px 0.5px #415677;
-  box-shadow: 0px 2px 11px 0.5px #415677;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work:last-child {
-  margin-right: 0;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work h4 {
-  color: #ED7A0B;
-  padding: 1em;
-  border-bottom: 1px solid #FF4500;
-  display: inline-block;
-  width: 100%;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work p {
-  padding: 0 1em;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work img {
-  float: left;
-  display: block;
-  margin-right: 2.35765%;
-  width: 100%;
-}
-
-.aria-home-jw .list-aria-work .aria--play-list-work img:last-child {
-  margin-right: 0;
-}
-
 .aria-home-tw {
   clear: both;
 }
@@ -650,4 +600,66 @@ header .site-header .main-menu ul a > li.no-all:hover {
 .nr-vsandms {
   width: 70%;
   margin: 0 auto;
+}
+
+.aria-home-jw {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+
+.aria-home-jw:last-child {
+  margin-right: 0;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 31.76157%;
+  border: 1px solid #dedede;
+  background: #010B1B;
+  color: #F8F8FF;
+  -webkit-box-shadow: 0px 2px 11px 0.5px #415677;
+  box-shadow: 0px 2px 11px 0.5px #415677;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work:last-child {
+  margin-right: 0;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work h4 {
+  color: #ED7A0B;
+  padding: 1em;
+  border-bottom: 1px solid #FF4500;
+  display: inline-block;
+  width: 100%;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work ul.serv-list--work {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 40.29137%;
+  padding: 0 1em;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work ul.serv-list--work:last-child {
+  margin-right: 0;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work ul.serv-list--work li {
+  list-style-type: none;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work img {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+
+.aria-home-jw .list-aria-work .aria--play-list-work img:last-child {
+  margin-right: 0;
 }
