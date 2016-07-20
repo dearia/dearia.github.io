@@ -1,0 +1,36 @@
+
+.aria-price-list {
+    section {
+        @include span-columns(12);
+        margin-bottom: em(25);
+    }
+
+    .layer {
+        @include span-columns(4);
+
+        background-color: #ddd;
+        border-radius: em(10);
+        overflow: hidden;
+
+        .head, .body, .foot {
+            padding: em(16);
+        }
+
+        .head {
+            font-weight: 700;
+            font-size: em(20);
+            background-color: navy;
+            border-bottom: 1px solid yellow;
+            color: #ccc;
+        }
+
+        .body {
+
+        }
+
+        .foot {
+            background-color: tint(navy, 56%);
+            color: #111;
+        }
+    }
+}
