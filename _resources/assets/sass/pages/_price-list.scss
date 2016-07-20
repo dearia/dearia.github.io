@@ -1,13 +1,25 @@
-
 .aria-price-list {
+    @include span-columns(12);
+
+    @include media(max-width 769px) {
+        padding: 0 em(30);
+    }
+
+
     section {
         @include span-columns(12);
         margin-bottom: em(25);
     }
 
+
     .layer {
         @include span-columns(4);
 
+        @include media(max-width 769px) {
+            @include span-columns(12);
+        }
+
+        margin-bottom: em(30);       
         background-color: #ddd;
         border-radius: em(10);
         overflow: hidden;

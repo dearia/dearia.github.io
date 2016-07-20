@@ -1075,6 +1075,23 @@ header .site-header .main-menu ul a > li.no-all:hover {
   margin-right: 0;
 }
 
+.aria-price-list {
+  float: left;
+  display: block;
+  margin-right: 2.35765%;
+  width: 100%;
+}
+
+.aria-price-list:last-child {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 769px) {
+  .aria-price-list {
+    padding: 0 1.875em;
+  }
+}
+
 .aria-price-list section {
   float: left;
   display: block;
@@ -1092,6 +1109,7 @@ header .site-header .main-menu ul a > li.no-all:hover {
   display: block;
   margin-right: 2.35765%;
   width: 31.76157%;
+  margin-bottom: 1.875em;
   background-color: #ddd;
   -webkit-border-radius: 0.625em;
   border-radius: 0.625em;
@@ -1100,6 +1118,18 @@ header .site-header .main-menu ul a > li.no-all:hover {
 
 .aria-price-list .layer:last-child {
   margin-right: 0;
+}
+
+@media screen and (max-width: 769px) {
+  .aria-price-list .layer {
+    float: left;
+    display: block;
+    margin-right: 2.35765%;
+    width: 100%;
+  }
+  .aria-price-list .layer:last-child {
+    margin-right: 0;
+  }
 }
 
 .aria-price-list .layer .head, .aria-price-list .layer .body, .aria-price-list .layer .foot {
