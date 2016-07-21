@@ -3,7 +3,6 @@
 highlighter:    pygments
 timezone:       "Asia/Jakarta"
 encoding:       "utf-8"
-# url:            "http://dearia.github.io"
 exclude:        ['node_modules', 'bower_components', 'Gulpfile.js', '*.json']
 include:        [.htaccess]
 keepfiles:      ['assets']
