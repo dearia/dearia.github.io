@@ -95,10 +95,10 @@ gulp.task('watch', function() {
 });
 
 // Build Assets
-gulp.task('build', ['sass', 'js', 'images']);        // Build App Assets
+gulp.task('build', ['sass', 'js', 'images']);
 
 // Build and Watch
-gulp.task('serve', ['build', 'watch']);                 // Build All, Watch, Running server
+gulp.task('serve', ['build', 'watch']);
 
-// Default TASK
-gulp.task('default', ['build']);                            // Just Watching App
+// Default Task
+gulp.task('default', ['build']);
