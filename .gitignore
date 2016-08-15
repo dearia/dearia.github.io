@@ -1,5 +1,9 @@
+# Files
 _site
 .sass-cache
+*.log
+*.logs
 
-/node_modules
-/bower_components
+# Directories
+node_modules
+bower_components
